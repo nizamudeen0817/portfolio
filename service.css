@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+}
+.navbar{
+    background-color:#121212 ;
+}
+
+.nav-item{
+    margin-left: 30px;
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 18px;
+
+    
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bolder;
+    color: yellowgreen;
+}
+.nav-item a:hover{
+ color: white;
+}
+
+.card{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin-top: 100px;
+    transition: background 0.5s,transform 0.5s;
+}
+.row{
+    justify-content: space-evenly; 
+}
+.card h5{
+    background-color: transparent;
+    color: yellowgreen;
+    font-weight: bolder;
+    margin: 15px;
+}
+.card p{
+    background-color: transparent;
+    color: black;
+    font-style: italic;
+    font-size: small;
+    font-weight: bold;
+}
+ion-icon{
+    background-color: transparent;
+}
+
+
+
+
+
+
+.row .card:hover{
+    background-color: yellowgreen;
+    transform: translate(-10px);
+}
+.card h5:hover{
+   color: #121212;
+}
